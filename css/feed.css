@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+    outline: none;
+    text-decoration: none;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    border: none;
+}
+
+header {
+    background-color: #FFF7AD;
+}
+
+.topnav li {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.logo {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    margin: 40px;
+}
+
+.topnav img:hover {
+    cursor: pointer;
+}
+
+.topnav {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 34px;
+    border-bottom: solid 2.5px black;
+}
+
+body {
+    background-color: #ffdeed;
+}
+
+.pfp img {
+    display: block;
+    width: 100%;
+    
+}
+
+.pfp {
+    width: 3rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid black;
+
+}
+
+.pfp:hover {
+    opacity: 0.75;
+}
+
+.barPesquisa {
+    padding: .6rem 1rem;
+    background-color: white;
+    border-radius: 30px;
+    border: 2px solid black;
+
+}
+
+.barPesquisa input[type="search"] {
+    font-family: "Poppins", sans-serif;
+    background: transparent;
+    width: 50vh;
+    margin-left: 1rem;
+    font-size: .9rem;
+    color:black;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 18vw auto 20vw;
+    position: relative;
+    column-gap: 2rem;
+    border: 2px solid black;
+    height: 100%;
+}
+
+.main-left {
+    position: sticky;
+    height: max-content;
+    top: 5.4rem;
+    border-right: 2px solid black;
+    height: 100%;
+    
+}
+
+.main-right {
+    border-left: 2px solid black;
+
+
+}
+
+.main-right .profile {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 20px;
+    width: 100%;
+    gap: 1rem;
+    display: flex;
+    
+}
+
+aside {
+   
+    margin-top: 1rem;
+    
+   
+}
+
+aside .menu-item {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    position: relative;
+    cursor: pointer;
+    transition: 300ms ease all;
+    background-color: transparent;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+aside .menu-item:hover {
+    background-color: transparent;
+}
+
+
+
+aside .menu-item i {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.btnPostar {
+    margin-top: 1rem;
+    padding: .6rem 3rem;
+    font-size: 18px;
+    border-radius: 30px;
+    border: 2px solid black;
+    position: relative;
+    cursor: pointer;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+
+#log-out {
+    
+    display: flex;
+    align-items: flex-end;
+    margin-top: 2rem;
+    
+}
