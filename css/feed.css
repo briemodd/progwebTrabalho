@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -48,7 +47,7 @@ a {
 }
 
 body {
-    background-color: #ffdeed;
+    background-color: #fffce0;
 }
 
 .pfp img {
@@ -71,10 +70,13 @@ body {
 }
 
 .barPesquisa {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     padding: .6rem 1rem;
     background-color: white;
     border-radius: 30px;
     border: 2px solid black;
+    box-shadow: 2px 2px 1px 1px;
 
 }
 
@@ -112,21 +114,29 @@ main {
 }
 
 .main-right {
-    border-left: 2px solid black;
-
+    border-left: 2px solid rgb(133, 132, 132);
+    padding: 20px;
+    
 
 }
 
 .main-right .profile {
-    background-color: rgb(255, 255, 255);
+    
     padding: 20px;
     border-radius: 20px;
     width: 100%;
     gap: 1rem;
     display: flex;
+    margin-top: 2rem;
+    
+    
     
 }
 
+.profile-handle h4 {
+   font-weight: 700;
+   font-size: large;
+}
 aside {
    
     margin-top: 1rem;
@@ -176,4 +186,60 @@ aside .menu-item i {
     align-items: flex-end;
     margin-top: 2rem;
     
+}
+
+.tags-pesquisa {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.tags-pesquisa .tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: .6rem 1rem;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-size: 15px;
+
+}
+
+.tags-pesquisa .tag:hover {
+    background-color: rgb(243, 237, 237);
+    cursor: pointer;
+    transition: 300ms ease all;
+}
+
+.tags-pesquisa .expandir {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:#e2bbda;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.tags-pesquisa .expandir:hover {
+    background-color:#ac689e;
+    cursor: pointer;
+    transition: 300ms ease all;
+}
+
+
+.tags-pesquisa .tag i {
+   margin-right: 10px;
+   
+    
+}
+
+.main-middle h2 {
+    margin-top: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #ac689e;
 }
