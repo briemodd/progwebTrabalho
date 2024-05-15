@@ -249,3 +249,124 @@ aside .menu-item i {
     font-weight: 600;
     color: #000000;
 }
+
+.recentes {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: relative;
+    column-gap: 1rem;
+    margin-top: 2rem;
+    
+
+}
+
+.publicacao {
+    display: block;
+    background-color: white;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 1px 1px;
+    position: relative;
+    height: 190px;
+    overflow: hidden;
+    
+}
+
+.conteudo {
+    
+    padding-top: 5px;
+    padding-left: 7px;
+    height: 100%;
+    font-size: 15px;
+    border-top: 2px solid black;
+    
+}
+
+.conteudo h4 {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 700;
+}
+
+.publicacao figure {
+    margin: 0;
+    top: 0;
+    position: relative;
+	width: 100%;
+	height: 130px;
+	overflow: hidden;
+    background-color: #ac689e;
+
+}
+.publicacao figure img {
+    
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s;
+    
+    
+}
+
+.profile-post {
+    gap: 0.5rem;
+    display: flex;
+
+}
+
+.profile-post span {
+    color: gray;
+    margin-top: 7px;
+    margin-left: 4rem;
+}
+
+.user-post {
+    margin-top: 5px;
+    color: gray;
+}
+
+
+
+.pfp-post img {
+    margin-top: 1px;
+    display: block;
+    width: 100%;
+    
+    
+}
+
+.pfp-post {
+    width: 1.5rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.pfp-post:hover {
+    opacity: 0.75;
+    transition: all 0.5s;
+}
+
+.botao-expandir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 20px;
+    height: 20px;
+    background: orange;
+    position: relative;
+    float:inline-end;
+    right: 7px;
+    top: 4px;
+    cursor: pointer;
+}
+
+.botao-expandir:hover {
+    opacity: 0.75;
+    transition: all 0.5s;
+}
