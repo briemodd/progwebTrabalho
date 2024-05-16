@@ -85,7 +85,7 @@ body {
 .barPesquisa input[type="search"] {
     font-family: "Poppins", sans-serif;
     background: transparent;
-    width: 110vh;
+    width: 100vh;
     margin-left: 1rem;
     font-size: .9rem;
     color:black;
@@ -99,7 +99,7 @@ main {
 
 .main-container {
     display: grid;
-    grid-template-columns: 18vw auto 20vw;
+    grid-template-columns: 19vw auto 20vw;
     position: relative;
     column-gap: 2rem;
     border: 2px solid black;
@@ -143,8 +143,8 @@ main {
 }
 aside {
    
-    margin-top: 1rem;
     
+    width: 100%;
     
    
 }
@@ -156,9 +156,26 @@ aside .menu-item {
     position: relative;
     cursor: pointer;
     transition: 300ms ease all;
-    background-color: transparent;
-    margin-right: 1rem;
-    margin-left: 1rem;
+    background-color: yellow;
+    width: 100%;
+    
+    
+}
+
+.btnPostar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    height: 3rem;
+    transition: 300ms ease all;
+    
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 40px;
+    font-size: large;
 }
 
 aside .menu-item:hover {
@@ -172,17 +189,7 @@ aside .menu-item i {
     margin-right: 1rem;
 }
 
-.btnPostar {
-    margin-top: 1rem;
-    padding: .6rem 3rem;
-    font-size: 18px;
-    border-radius: 30px;
-    border: 2px solid black;
-    position: relative;
-    cursor: pointer;
-    margin-right: 1rem;
-    margin-left: 1rem;
-}
+
 
 
 #log-out {
@@ -195,7 +202,7 @@ aside .menu-item i {
 
 .tags-pesquisa {
     display: flex;
-    gap: 0.5rem;
+    gap: 1rem;
 }
 
 .tags-pesquisa .tag {
@@ -204,10 +211,13 @@ aside .menu-item i {
     justify-content: center;
     text-align: center;
     background-color: rgb(255, 255, 255);
-    padding: .6rem 1rem;
+    position: relative;
     border-radius: 20px;
     border: 2px solid black;
     font-size: 15px;
+    padding: .6rem 1rem;
+    
+    
 
 }
 
@@ -295,7 +305,7 @@ aside .menu-item i {
 	width: 100%;
 	height: 130px;
 	overflow: hidden;
-    background-color: #ac689e;
+    background-color: #68ac95;
 
 }
 .publicacao figure img {
